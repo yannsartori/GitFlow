@@ -1,5 +1,5 @@
 [bumpver]
-current_version = "22.08.2"
+current_version = "22.08.3"
 version_pattern = "YY.0M.INC0"
 commit = true
 tag = true
