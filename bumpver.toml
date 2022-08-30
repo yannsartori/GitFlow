@@ -1,0 +1,14 @@
+[bumpver]
+current_version = "22.08.2"
+version_pattern = "YY.0M.INC0"
+commit = true
+tag = true
+push = true
+
+[bumpver.file_patterns]
+"README.md" = [
+    "{version}",
+]
+"bumpver.toml" = [
+    'current_version = "{version}"',
+]
